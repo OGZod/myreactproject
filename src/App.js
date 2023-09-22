@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Todo from "./components/todo/Todo";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Product
+        products={[
+          { id: 1,name: "Laptop",price:500 },
+          {id: 2, name: "Phone" ,price:50},
+          { id: 3,name: "Modem" ,price:200},
+          { id: 4,name: "Computer",price:500 },
+        ]}
+        fruits = {['Banana','Orange','Apple']}
+      /> */}
+      <Todo/>
     </div>
   );
 }
